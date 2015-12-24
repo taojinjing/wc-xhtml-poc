@@ -21,7 +21,7 @@
             <xsl:for-each select="@*" >
                 <span>
                     <xsl:attribute name="class">
-                    <xsl:value-of select="name()"/>
+                        <xsl:value-of select="name()"/>
                     </xsl:attribute>
                     <xsl:value-of select="."/>
                 </span>
