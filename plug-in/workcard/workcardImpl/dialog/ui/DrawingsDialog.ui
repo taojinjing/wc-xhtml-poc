@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DrawingsDialog</class>
+ <widget class="QDialog" name="DrawingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>393</width>
+    <height>282</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add/Change Drawings</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="1" column="2">
+    <widget class="QPushButton" name="editButton_">
+     <property name="text">
+      <string>&amp;Edit...</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+E</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="cancelButton_">
+     <property name="text">
+      <string>&amp;Cancel</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+C</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="removeButton_">
+     <property name="text">
+      <string>&amp;Remove</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+R</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QPushButton" name="addButton_">
+     <property name="text">
+      <string>&amp;Add...</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+A</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <spacer name="Horizontal Spacing2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>16</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="okButton_">
+     <property name="text">
+      <string>&amp;OK</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+O</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <spacer name="spacer2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>41</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" rowspan="5" colspan="2">
+    <widget class="QTreeWidget" name="listView_">
+     <property name="styleSheet">
+      <string notr="true">QTreeWidget::branch{image:none;}</string>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Vendor Code</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rev</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Comment</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <tabstops>
+  <tabstop>addButton_</tabstop>
+  <tabstop>editButton_</tabstop>
+  <tabstop>removeButton_</tabstop>
+  <tabstop>okButton_</tabstop>
+  <tabstop>cancelButton_</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancelButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>okButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>addButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>add()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>editButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>edit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>removeButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>remove()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>listView_</sender>
+   <signal>currentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)</signal>
+   <receiver>DrawingsDialog</receiver>
+   <slot>selectionChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>140</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

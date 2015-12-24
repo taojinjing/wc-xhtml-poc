@@ -1,0 +1,1149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<serna-custom-content>
+  <custom-content>
+    <name>step</name>
+    <inscription>Step</inscription>
+    </>
+    <accel>Alt+S</accel>
+    <context-specs>
+      <content>
+        <text>&lt;step6 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step6&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step6 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step6&gt;</text>
+        <pattern>step6</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+      <content>
+        <text>&lt;step5 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step5&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step5 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step5&gt;</text>
+        <pattern>step5</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+      <content>
+        <text>&lt;step4 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step4&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step4 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step4&gt;</text>
+        <pattern>step4</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+      <content>
+        <text>&lt;step3 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step3&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step3 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step3&gt;</text>
+        <pattern>step3</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+      <content>
+        <text>&lt;step2 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step2&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step2 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step2&gt;</text>
+        <pattern>step2</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+       <content>
+          <text>&lt;step1 id="$(generate-id %t)"&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+          <pattern>node()[ancestor-or-self::step1][ancestor-or-self::step1/following-sibling::*[1][self::sign]]</pattern>
+          <xpath-location>ancestor-or-self::step1/following-sibling::*[1][self::sign]</xpath-location>
+          <relative-location>after</relative-location>
+        </content>
+      
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>mainfunc</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+     
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>step-child</name>
+    <inscription>Lower Level Step</inscription>
+    </>
+    <accel>Alt+I</accel>
+    <context-specs>
+      <content>
+        <text>&lt;step6 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step6&gt;</text>
+        <pattern>node()[ancestor-or-self::step6</pattern>
+        <xpath-location>ancestor-or-self::step6</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step6 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step6&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/step6[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step6 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step6&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step5 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step5&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/step5[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step5 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step5&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step4 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step4&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/step4[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step4 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step4&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step3 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step3&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/step3[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step3 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step3&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step2 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step2&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/step2[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step2 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step2&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>step-parent</name>
+    <inscription>Higher Level Step</inscription>
+    </>
+    <accel>Alt+P</accel>
+    <context-specs>
+      <content>
+        <text>&lt;step5 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step5&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step5</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step4 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step4&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step4</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step3 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step3&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step3</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step2 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step2&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step2</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step1</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;step1 id=&quot;$(generate-id %t)&quot;&gt;&lt;text&gt;&lt;para&gt;&lt;/para&gt;&lt;/text&gt;&lt;/step1&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>signoff</name>
+    <inscription>Signoff Mechanic</inscription>
+    </>
+    <accel>Alt+M</accel>
+    <context-specs>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>mainfunc</pattern>
+        <xpath-location>cc:nodes-after()[self::step1][1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>mainfunc</pattern>
+        <xpath-location>ancestor-or-self::mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc</xpath-location>
+        <xpath-location>ancestor-or-self::mainfunc/step1</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>$(cursor)&lt;sign&gt;&lt;block&gt;&lt;sign-skill&gt;Mechanic&lt;/sign-skill&gt;&lt;/block&gt;&lt;/sign&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>caution</name>
+    <inscription>Caution</inscription>
+    </>
+    <accel>Alt+C</accel>
+    <context-specs>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/note</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/note</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/warning[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;caution&gt;&lt;para&gt;&lt;/para&gt;&lt;/caution&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>nr-table</name>
+    <inscription>Non-routine Table</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;table frame=&quot;none&quot;&gt;
+  &lt;tgroup cols=&quot;1&quot;&gt;
+    &lt;colspec colname=&quot;c1&quot;/&gt;
+    &lt;tbody&gt;
+      &lt;row&gt;
+        &lt;entry rowsep=&quot;0&quot;&gt;List all non-routine cards written against this inspection. If none, enter NONE:&lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+    &lt;/tbody&gt;
+  &lt;/tgroup&gt;
+&lt;/table&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>cb-open</name>
+    <inscription>Open CB</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;table frame=&quot;none&quot;&gt;
+  &lt;tgroup cols=&quot;4&quot; colsep=&quot;0&quot; rowsep=&quot;0&quot;&gt;
+    &lt;colspec colname=&quot;c1&quot;/&gt;
+    &lt;colspec colname=&quot;c2&quot;/&gt;
+    &lt;colspec colname=&quot;c3&quot;/&gt;
+    &lt;colspec colname=&quot;c4&quot;/&gt;
+    &lt;tbody&gt;
+      &lt;row&gt;
+        &lt;entry namest=&quot;c1&quot; nameend=&quot;c4&quot;&gt;Open the following circuit breaker(s) and install Danger Tag(s):&lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;ZONE&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;PANEL&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;LOCATION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;DESCRIPTION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+    &lt;/tbody&gt;
+  &lt;/tgroup&gt;
+&lt;/table&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>cb-close</name>
+    <inscription>Close CB</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;table frame=&quot;none&quot;&gt;
+  &lt;tgroup cols=&quot;4&quot; colsep=&quot;0&quot; rowsep=&quot;0&quot;&gt;
+    &lt;colspec colname=&quot;c1&quot;/&gt;
+    &lt;colspec colname=&quot;c2&quot;/&gt;
+    &lt;colspec colname=&quot;c3&quot;/&gt;
+    &lt;colspec colname=&quot;c4&quot;/&gt;
+    &lt;tbody&gt;
+      &lt;row&gt;
+        &lt;entry namest=&quot;c1&quot; nameend=&quot;c4&quot;&gt;Remove Danger Tag(s) and close the following Circuit Breaker(s):&lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;ZONE&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;PANEL&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;LOCATION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;DESCRIPTION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+    &lt;/tbody&gt;
+  &lt;/tgroup&gt;
+&lt;/table&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>cb-verify</name>
+    <inscription>Verify CB Closed</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;table frame=&quot;none&quot;&gt;
+  &lt;tgroup cols=&quot;4&quot; colsep=&quot;0&quot; rowsep=&quot;0&quot;&gt;
+    &lt;colspec colname=&quot;c1&quot;/&gt;
+    &lt;colspec colname=&quot;c2&quot;/&gt;
+    &lt;colspec colname=&quot;c3&quot;/&gt;
+    &lt;colspec colname=&quot;c4&quot;/&gt;
+    &lt;tbody&gt;
+      &lt;row&gt;
+        &lt;entry namest=&quot;c1&quot; nameend=&quot;c4&quot;&gt;Verify the following Circuit Breaker(s) are closed:&lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;ZONE&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;PANEL&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;LOCATION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;DESCRIPTION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+    &lt;/tbody&gt;
+  &lt;/tgroup&gt;
+&lt;/table&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>cb-empty</name>
+    <inscription>Empty CB</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;table frame=&quot;none&quot;&gt;
+  &lt;tgroup cols=&quot;4&quot; colsep=&quot;0&quot; rowsep=&quot;0&quot;&gt;
+    &lt;colspec colname=&quot;c1&quot;/&gt;
+    &lt;colspec colname=&quot;c2&quot;/&gt;
+    &lt;colspec colname=&quot;c3&quot;/&gt;
+    &lt;colspec colname=&quot;c4&quot;/&gt;
+    &lt;tbody&gt;
+      &lt;row&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;ZONE&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;PANEL&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;LOCATION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+        &lt;entry&gt;
+          &lt;emphasis emph=&quot;em01&quot;&gt;DESCRIPTION&lt;/emphasis&gt;
+        &lt;/entry&gt;
+      &lt;/row&gt;
+      &lt;row&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+        &lt;entry/&gt;
+      &lt;/row&gt;
+    &lt;/tbody&gt;
+  &lt;/tgroup&gt;
+&lt;/table&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>req-access</name>
+    <inscription>Required Access</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;req-access&gt;
+  &lt;para&gt;&lt;/para&gt;
+&lt;/req-access&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>ancestor-or-self::*[substring(local-name(),1,4)=&apos;step&apos;]/text[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>cep-task</name>
+    <inscription>CEP Task</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>
+&lt;para&gt;
+  &lt;emphasis emph=&quot;em01&quot;&gt;CEP TASK: &lt;/emphasis&gt;
+&lt;/para&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::para]</pattern>
+        <xpath-location>ancestor-or-self::para</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>
+&lt;para&gt;
+  &lt;emphasis emph=&quot;em01&quot;&gt;CEP TASK: &lt;/emphasis&gt;
+&lt;/para&gt;
+        </text>
+        <pattern>node()[ancestor-or-self::text]</pattern>
+        <xpath-location/>
+        <relative-location/>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>randlist</name>
+    <inscription>Random List</inscription>
+    </>
+    </>
+    <context-specs>
+      <content>
+        <text>&lt;item/&gt;</text>
+        <pattern>node()[ancestor::randlist]</pattern>
+        <xpath-location>ancestor::randlist</xpath-location>
+        <relative-location>append</relative-location>
+      </content>
+      <content>
+        <text>&lt;para&gt;&lt;randlist prefix=&quot;pf03&quot;&gt;&lt;item/&gt;&lt;/randlist&gt;&lt;/para&gt;</text>
+        <pattern>node()[ancestor-or-self::para]</pattern>
+        <xpath-location>ancestor-or-self::para</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>warning</name>
+    <inscription>Warning</inscription>
+    </>
+    <accel>Alt+W</accel>
+    <context-specs>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step6]</pattern>
+        <xpath-location>ancestor-or-self::step6/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step5]</pattern>
+        <xpath-location>ancestor-or-self::step5/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step4]</pattern>
+        <xpath-location>ancestor-or-self::step4/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step3]</pattern>
+        <xpath-location>ancestor-or-self::step3/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step2]</pattern>
+        <xpath-location>ancestor-or-self::step2/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/text/preceding-sibling::note[last()]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::step1]</pattern>
+        <xpath-location>ancestor-or-self::step1/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/note</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/caution</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/note</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;warning&gt;&lt;para&gt;&lt;/para&gt;&lt;/warning&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+  <custom-content>
+    <name>note</name>
+    <inscription>Note</inscription>
+    </>
+    <accel>Alt+N</accel>
+    <context-specs>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::caution]</pattern>
+        <xpath-location>ancestor-or-self::*[substring(local-name(.),1,4)=&apos;step&apos;]/caution[last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::warning]</pattern>
+        <xpath-location>ancestor-or-self::*[substring(local-name(.),1,4)=&apos;step&apos;]/*[self::warning or self::caution][last()]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[substring(local-name(.),1,4)=&apos;step&apos;][cc:nodes-before()=&apos;&apos;]</pattern>
+        <xpath-location>ancestor-or-self::*[substring(local-name(.),1,4)=&apos;step&apos;]/*[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::*[substring(local-name(.),1,4)=&apos;step&apos;]]</pattern>
+        <xpath-location>cc:nodes-before()[substring(local-name(..),1,4)=&apos;step&apos;][1] | ancestor-or-self::*[substring(local-name(..),1,4)=&apos;step&apos;][1][not(self::step1 or self::step2 or self::step3 or self::step4 or self::step5)]</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/note</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::mainfunc]</pattern>
+        <xpath-location>ancestor-or-self::mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/note</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/caution</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/warning</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/step1[1]</xpath-location>
+        <relative-location>before</relative-location>
+      </content>
+      <content>
+        <text>&lt;note&gt;&lt;para&gt;&lt;/para&gt;&lt;/note&gt;</text>
+        <pattern>node()[ancestor-or-self::workcard]</pattern>
+        <xpath-location>ancestor-or-self::workcard/mainfunc/*</xpath-location>
+        <relative-location>after</relative-location>
+      </content>
+    </context-specs>
+    <make-tool-button>false</make-tool-button>
+  </custom-content>
+</serna-custom-content>

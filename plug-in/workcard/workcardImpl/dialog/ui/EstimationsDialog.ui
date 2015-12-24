@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EstimationsDialog</class>
+ <widget class="QDialog" name="EstimationsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>244</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Estimations</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="2" column="0">
+    <widget class="QPushButton" name="helpButton_">
+     <property name="text">
+      <string>&amp;Help</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+H</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="cancelButton_">
+     <property name="text">
+      <string>&amp;Cancel</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+C</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="okButton_">
+     <property name="text">
+      <string>&amp;OK</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+O</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <spacer name="Horizontal Spacing2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>280</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <spacer name="spacer23">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>16</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <widget class="QGroupBox" name="groupBox1">
+     <layout class="QGridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="blockBox1">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="blockBox2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="blockBox3">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="blockBox4">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="blockBox5">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="blockBox6">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QComboBox" name="comboSkill2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="textLabel1_2_3">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="textLabel1_2_4">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QComboBox" name="comboSkill5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QComboBox" name="comboSkill1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>70</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="textLabel1_2_5">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QComboBox" name="comboSkill6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLabel" name="textLabel1_2_6">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QComboBox" name="comboSkill3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="textLabel1_2">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="textLabel1_2_2">
+        <property name="text">
+         <string>Skill :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QComboBox" name="comboSkill4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="textLabel1">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLineEdit" name="staffEdit1"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="textLabel1_3">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="staffEdit2"/>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="textLabel1_4">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QLineEdit" name="staffEdit3"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="textLabel1_5">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLineEdit" name="staffEdit4"/>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="textLabel1_6">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLineEdit" name="staffEdit5"/>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLabel" name="textLabel1_7">
+        <property name="text">
+         <string>Staff :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLineEdit" name="staffEdit6"/>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLabel" name="textLabel1_8">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLineEdit" name="effortEdit1"/>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLabel" name="textLabel1_3_2">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLineEdit" name="effortEdit2"/>
+      </item>
+      <item row="2" column="5">
+       <widget class="QLabel" name="textLabel1_4_2">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QLineEdit" name="effortEdit3"/>
+      </item>
+      <item row="3" column="5">
+       <widget class="QLabel" name="textLabel1_5_2">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QLineEdit" name="effortEdit4"/>
+      </item>
+      <item row="4" column="5">
+       <widget class="QLabel" name="textLabel1_6_2">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="6">
+       <widget class="QLineEdit" name="effortEdit5"/>
+      </item>
+      <item row="5" column="5">
+       <widget class="QLabel" name="textLabel1_7_2">
+        <property name="text">
+         <string>Effort :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="6">
+       <widget class="QLineEdit" name="effortEdit6"/>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLineEdit" name="durationEdit2"/>
+      </item>
+      <item row="2" column="8">
+       <widget class="QLineEdit" name="durationEdit3"/>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLineEdit" name="durationEdit1"/>
+      </item>
+      <item row="4" column="8">
+       <widget class="QLineEdit" name="durationEdit5"/>
+      </item>
+      <item row="3" column="8">
+       <widget class="QLineEdit" name="durationEdit4"/>
+      </item>
+      <item row="5" column="8">
+       <widget class="QLineEdit" name="durationEdit6"/>
+      </item>
+      <item row="0" column="7">
+       <widget class="QLabel" name="textLabel1_8_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QLabel" name="textLabel1_3_2_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QLabel" name="textLabel1_4_2_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7">
+       <widget class="QLabel" name="textLabel1_5_2_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="7">
+       <widget class="QLabel" name="textLabel1_6_2_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="7">
+       <widget class="QLabel" name="textLabel1_7_2_2">
+        <property name="text">
+         <string>Duration :</string>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <tabstops>
+  <tabstop>blockBox1</tabstop>
+  <tabstop>comboSkill1</tabstop>
+  <tabstop>blockBox2</tabstop>
+  <tabstop>comboSkill2</tabstop>
+  <tabstop>blockBox3</tabstop>
+  <tabstop>comboSkill3</tabstop>
+  <tabstop>blockBox4</tabstop>
+  <tabstop>comboSkill4</tabstop>
+  <tabstop>blockBox5</tabstop>
+  <tabstop>comboSkill5</tabstop>
+  <tabstop>blockBox6</tabstop>
+  <tabstop>comboSkill6</tabstop>
+  <tabstop>helpButton_</tabstop>
+  <tabstop>okButton_</tabstop>
+  <tabstop>cancelButton_</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>helpButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>EstimationsDialog</receiver>
+   <slot>help()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancelButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>EstimationsDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>okButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>EstimationsDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

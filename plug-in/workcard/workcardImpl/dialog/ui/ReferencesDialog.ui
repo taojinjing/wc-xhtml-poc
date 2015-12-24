@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferencesDialog</class>
+ <widget class="QDialog" name="ReferencesDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>232</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add/Change References</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="1" column="3">
+    <widget class="QPushButton" name="cancelButton_">
+     <property name="text">
+      <string>&amp;Cancel</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+C</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="helpButton_">
+     <property name="text">
+      <string>&amp;Help</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+H</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="Horizontal Spacing2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>228</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="okButton_">
+     <property name="text">
+      <string>&amp;Ok</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+O</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <widget class="QTreeWidget" name="taskListView_">
+     <property name="styleSheet">
+      <string notr="true">QTreeWidget::branch{image:none;} QTreeWidget::item:selected{background-color:rgb(172,172,185)}</string>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>Source Key</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Origin Type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Task Primary</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>WC Primary</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <tabstops>
+  <tabstop>taskListView_</tabstop>
+  <tabstop>helpButton_</tabstop>
+  <tabstop>okButton_</tabstop>
+  <tabstop>cancelButton_</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>helpButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ReferencesDialog</receiver>
+   <slot>help()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancelButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ReferencesDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>okButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ReferencesDialog</receiver>
+   <slot>insertReferences()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>taskListView_</sender>
+   <signal>itemSelectionChanged()</signal>
+   <receiver>ReferencesDialog</receiver>
+   <slot>selectionChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>280</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>taskListView_</sender>
+   <signal>itemClicked(QTreeWidgetItem*,int)</signal>
+   <receiver>ReferencesDialog</receiver>
+   <slot>selectionChangedBack()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>280</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

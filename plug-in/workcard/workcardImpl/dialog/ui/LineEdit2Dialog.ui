@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" stdsetdef="1">
+  <author></author>
+  <comment></comment>
+  <exportmacro></exportmacro>
+  <class>LineEdit2Dialog</class>
+  <widget class="QDialog" name="LineEdit2Dialog">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>513</width>
+        <height>87</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>LineEditDialog</string>
+    </property>
+    <widget class="QLabel" name="textLabel1">
+      <property name="geometry">
+        <rect>
+          <x>11</x>
+          <y>11</y>
+          <width>37</width>
+          <height>25</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>fc-num</string>
+      </property>
+      <property name="wordWrap">
+        <bool>false</bool>
+      </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit1_">
+      <property name="geometry">
+        <rect>
+          <x>54</x>
+          <y>13</y>
+          <width>107</width>
+          <height>21</height>
+        </rect>
+      </property>
+    </widget>
+    <widget class="QPushButton" name="validateButton_">
+      <property name="geometry">
+        <rect>
+          <x>420</x>
+          <y>11</y>
+          <width>82</width>
+          <height>25</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>&amp;Validate</string>
+      </property>
+      <property name="shortcut">
+        <string>Alt+V</string>
+      </property>
+      <property name="default">
+        <bool>true</bool>
+      </property>
+    </widget>
+    <widget class="QPushButton" name="okButton_">
+      <property name="geometry">
+        <rect>
+          <x>329</x>
+          <y>51</y>
+          <width>85</width>
+          <height>25</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>&amp;OK</string>
+      </property>
+      <property name="shortcut">
+        <string>Alt+O</string>
+      </property>
+    </widget>
+    <widget class="QPushButton" name="cancelButton_">
+      <property name="geometry">
+        <rect>
+          <x>420</x>
+          <y>51</y>
+          <width>82</width>
+          <height>25</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>&amp;Cancel</string>
+      </property>
+      <property name="shortcut">
+        <string>Alt+C</string>
+      </property>
+    </widget>
+    <widget class="QLabel" name="textLabel1_2">
+      <property name="geometry">
+        <rect>
+          <x>210</x>
+          <y>11</y>
+          <width>43</width>
+          <height>25</height>
+        </rect>
+      </property>
+      <property name="text">
+        <string>nha-pos</string>
+      </property>
+      <property name="wordWrap">
+        <bool>false</bool>
+      </property>
+    </widget>
+    <widget class="QComboBox" name="nhaBox_">
+      <property name="geometry">
+        <rect>
+          <x>254</x>
+          <y>13</y>
+          <width>160</width>
+          <height>21</height>
+        </rect>
+      </property>
+      <property name="editable">
+        <bool>true</bool>
+      </property>
+    </widget>
+  </widget>
+  <layoutdefault spacing="6" margin="11"/>
+  <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+  <tabstops>
+    <tabstop>okButton_</tabstop>
+    <tabstop>cancelButton_</tabstop>
+  </tabstops>
+  <connections>
+    <connection>
+      <sender>cancelButton_</sender>
+      <signal>clicked()</signal>
+      <receiver>LineEdit2Dialog</receiver>
+      <slot>reject()</slot>
+    </connection>
+    <connection>
+      <sender>okButton_</sender>
+      <signal>clicked()</signal>
+      <receiver>LineEdit2Dialog</receiver>
+      <slot>accept()</slot>
+    </connection>
+    <connection>
+      <sender>validateButton_</sender>
+      <signal>clicked()</signal>
+      <receiver>LineEdit2Dialog</receiver>
+      <slot>validate()</slot>
+    </connection>
+  </connections>
+</ui>

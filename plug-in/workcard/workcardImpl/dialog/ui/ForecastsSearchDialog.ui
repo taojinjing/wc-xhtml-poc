@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ForecastsSearchDialog</class>
+ <widget class="QDialog" name="ForecastsSearchDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Forecasts</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="searchTextLabel">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Forecast Number :</string>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="searchButton_">
+     <property name="text">
+      <string>&amp;Search</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+S</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="cancelButton_">
+     <property name="text">
+      <string>&amp;Cancel</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+C</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="searchLineEdit_">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="okButton_">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>&amp;OK</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+O</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <spacer name="Horizontal Spacing2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>340</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QTreeWidget" name="listView_">
+     <property name="styleSheet">
+      <string notr="true">QTreeWidget::branch{image:none;}</string>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::MultiSelection</enum>
+     </property>
+     <property name="rootIsDecorated">
+      <bool>false</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string>FC-NUM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>NHA_POS</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <tabstops>
+  <tabstop>searchLineEdit_</tabstop>
+  <tabstop>okButton_</tabstop>
+  <tabstop>cancelButton_</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancelButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ForecastsSearchDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>okButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ForecastsSearchDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>searchLineEdit_</sender>
+   <signal>returnPressed()</signal>
+   <receiver>ForecastsSearchDialog</receiver>
+   <slot>search()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>searchButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>ForecastsSearchDialog</receiver>
+   <slot>search()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>listView_</sender>
+   <signal>currentItemChanged(QTreeWidgetItem*,QTreeWidgetItem*)</signal>
+   <receiver>ForecastsSearchDialog</receiver>
+   <slot>selectionChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

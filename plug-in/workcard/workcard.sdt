@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE t:document-template PUBLIC "-//Syntext//DTD Syntext Document Template V2.0//EN" "doctemplate.dtd" []>
+<t:document-template xmlns:t="http://www.syntext.com/Extensions/DocTemplate-2.0">
+  <t:category>User</t:category> 
+  <t:name>WorkCard</t:name>
+  <t:xml-stylesheet>$SERNA_TEMPLATE_DIR/../../stylesheet/src/wc-xhtml-4-studio.xslt</t:xml-stylesheet>
+  <t:xml-schema>$SERNA_TEMPLATE_DIR/../../resource/schema/xhtml1-strict.xsd</t:xml-schema>
+  <t:root-elements>html</t:root-elements>
+  <t:rootelem-guess-string>html</t:rootelem-guess-string>
+  <t:nons-schema-guess-string>xhtml</t:nons-schema-guess-string>
+  <t:toc-is-on>1</t:toc-is-on>
+  <t:folding-rules>
+    <t:elems-per-page>25</t:elems-per-page>
+    <t:fold-if-large>step1 graphic</t:fold-if-large>
+    <t:folding-list>prelreq step1 step2 graphic</t:folding-list>
+  </t:folding-rules>
+  <t:publish>
+    <t:name>pdfFop</t:name>
+    <t:inscription>PDF (with FOP)</t:inscription>
+    <t:extension>pdf</t:extension>
+    <t:script>runFop</t:script>
+    <t:stylesheet>$SERNA_TEMPLATE_DIR/stylesheet/workcard.xsl</t:stylesheet>
+  </t:publish>
+  <t:publish>
+    <t:name>pdfXep</t:name>
+    <t:inscription>PDF (with XEP)</t:inscription>
+    <t:extension>pdf</t:extension>
+    <t:script>runXep</t:script>
+    <t:stylesheet>$SERNA_TEMPLATE_DIR/stylesheet/workcard.xsl</t:stylesheet>
+  </t:publish>
+  <t:load-plugins>WorkCard_Py TablePlugin</t:load-plugins>
+  <t:process-xinclude>no</t:process-xinclude>
+</t:document-template>
+ 

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PanelTableDialog</class>
+ <widget class="QDialog" name="PanelTableDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Edit panel-table</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="2" column="2">
+    <widget class="QPushButton" name="cancelButton_">
+     <property name="text">
+      <string>&amp;Cancel</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+C</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="okButton_">
+     <property name="text">
+      <string>&amp;OK</string>
+     </property>
+     <property name="shortcut">
+      <string>Alt+O</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="spacer23">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>125</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <spacer name="Horizontal Spacing2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Expanding</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>192</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QGroupBox" name="groupBoxbox_">
+     <layout class="QGridLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="1" rowspan="2">
+       <spacer name="spacer3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>51</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton2">
+        <property name="text">
+         <string>Open</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radioButton3">
+        <property name="text">
+         <string>Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QRadioButton" name="radioButton4">
+        <property name="text">
+         <string>Open, Check Cond.</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QRadioButton" name="radioButton5">
+        <property name="text">
+         <string>Open, Check Cond., Protect, OK to Close, Close, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QRadioButton" name="radioButton6">
+        <property name="text">
+         <string>Check Cond., Protect, OK to Close, Close, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QRadioButton" name="radioButton7">
+        <property name="text">
+         <string>Protect, OK to Close, Close, Seal, Insp</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QRadioButton" name="radioButton8">
+        <property name="text">
+         <string>Protect, OK to Close, Close, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QRadioButton" name="radioButton9">
+        <property name="text">
+         <string>Open, Check Cond., OK to Close, Close, Inspect, Leak Check</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QRadioButton" name="radioButton10">
+        <property name="text">
+         <string>Check Cond., OK to Close, Close, Inspect, Leak Check</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QRadioButton" name="radioButton11">
+        <property name="text">
+         <string>Initial Res. Ck., Open, OK to Close, Close, Final Res. Ck.</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QRadioButton" name="radioButton12">
+        <property name="text">
+         <string>Initial Res. Ck., Open</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QRadioButton" name="radioButton13">
+        <property name="text">
+         <string>OK to Close, Close, Final Res. Ck.</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="13" column="0">
+       <widget class="QRadioButton" name="radioButton14">
+        <property name="text">
+         <string>Open, OK to Close, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QRadioButton" name="radioButton15">
+        <property name="text">
+         <string>OK to Close, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="15" column="0">
+       <widget class="QRadioButton" name="radioButton16">
+        <property name="text">
+         <string>Open, Protect, OK to Close, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QRadioButton" name="radioButton17">
+        <property name="text">
+         <string>Protect, OK to Close, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QRadioButton" name="radioButton18">
+        <property name="text">
+         <string>Open, OK to Close, Close, Inspect, Leak Check, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton1">
+        <property name="text">
+         <string>Open, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="20" column="0">
+       <widget class="QRadioButton" name="radioButton21">
+        <property name="text">
+         <string>OK to Close, Close, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="21" column="0">
+       <widget class="QRadioButton" name="radioButton22">
+        <property name="text">
+         <string>Open, Prep Cutout, DVI Cutout, Check Cond., OK to Close, Close</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="18" column="0">
+       <widget class="QRadioButton" name="radioButton19">
+        <property name="text">
+         <string>OK to Close, Close, Inspect, Leak Check, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="19" column="0">
+       <widget class="QRadioButton" name="radioButton20">
+        <property name="text">
+         <string>Open, OK to Close, Close, Seal</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="22" column="0">
+       <widget class="QRadioButton" name="radioButton23">
+        <property name="text">
+         <string>Open, OK to Close, Close, Inspect</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+      <item row="23" column="0">
+       <widget class="QRadioButton" name="radioButton24">
+        <property name="text">
+         <string>OK to Close, Close, Inspect</string>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">groupBox_</string>
+        </attribute>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <tabstops>
+  <tabstop>okButton_</tabstop>
+  <tabstop>cancelButton_</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>cancelButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>PanelTableDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>okButton_</sender>
+   <signal>clicked()</signal>
+   <receiver>PanelTableDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <buttongroups>
+  <buttongroup name="groupBox_"/>
+ </buttongroups>
+</ui>
