@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><html xsi:schemaLocation="http://www.w3.org/1999/xhtml file:/../resource/xhtml1-strict.xsd" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><head><title>sample xhtml workcard</title></head><body><div class="workcard">
+<?xml version="1.0" encoding="UTF-8"?><html xsi:schemaLocation="http://www.w3.org/1999/xhtml file:/../resource/xhtml1-strict.xsd" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><head><title>sample xhtml workcard</title></head><body>
   <div class="prelreq">
     <div class="carrier-code">FS</div>
     <div class="mfg">BOEING</div>
@@ -119,7 +119,7 @@
       </div>
     </div>
   </div>
-  <div class="mainfunc">
+  <div class="mainfunc"><span class="mfid">W1001</span>
     <div class="proc-num"><div class="para">55-0593-1-2064</div></div>
     <div class="step1">
       <div class="sign">
@@ -463,4 +463,4 @@
 
     </div>
   </div>
-</div></body></html>
+</body></html>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workcard key="1001" xsi:noNamespaceSchemaLocation="workcardSchema.xsd" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<workcard key="1001">
   <prelreq>
     <carrier-code>FS</carrier-code>
     <mfg>BOEING</mfg>
