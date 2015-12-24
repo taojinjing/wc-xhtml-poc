@@ -153,6 +153,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/stylesheet/stylesheet.iml" filepath="$PROJECT_DIR$/stylesheet/stylesheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/transform/transform.iml" filepath="$PROJECT_DIR$/transform/transform.iml" />
     </modules>
