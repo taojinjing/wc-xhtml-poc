@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcard key="1001">
+  <prelreq>
+    <carrier-code>FS</carrier-code>
+    <mfg>BOEING</mfg>
+    <model>B747</model>
+    <dash>400</dash>
+    <wctype>W</wctype>
+    <wc-num>0515-2001</wc-num>
+    <wc-title>TURN AROUND CHECK 747-400</wc-title>
+    <source-docs>
+      <tasks>
+        <task-key>1751</task-key>
+      </tasks>
+    </source-docs>
+    <major-zone>000</major-zone>
+    <crew-type>SC</crew-type>
+    <checks>
+      <check>
+        <check-type>TR</check-type>
+        <tails>
+          <airplane-tail>6301</airplane-tail>
+          <airplane-tail>6302</airplane-tail>
+          <airplane-tail>6303</airplane-tail>
+          <airplane-tail>6304</airplane-tail>
+          <airplane-tail>6305</airplane-tail>
+          <airplane-tail>6306</airplane-tail>
+          <airplane-tail>6307</airplane-tail>
+          <airplane-tail>6308</airplane-tail>
+          <airplane-tail>6309</airplane-tail>
+          <airplane-tail>6310</airplane-tail>
+          <airplane-tail>6399</airplane-tail>
+        </tails>
+      </check>
+    </checks>
+    <forecasts>
+      <forecast>
+        <fc-num>63-0515-8-0001</fc-num>
+        <nha-pos>X</nha-pos>
+      </forecast>
+    </forecasts>
+    <zones-panels>
+      <zone-panel>
+        <source-key>0</source-key>
+        <zn-num>000</zn-num>
+      </zone-panel>
+      <zone-panel>
+        <source-key>0</source-key>
+        <zn-num>201</zn-num>
+      </zone-panel>
+    </zones-panels>
+    <references>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r1</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r10</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r11</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r12</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r13</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r14</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r15</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r16</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r17</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r2</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r3</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r4</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r5</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r6</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r7</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r8</refid>
+      </reference>
+      <reference>
+        <source-key>1751</source-key>
+        <refid>r9</refid>
+      </reference>
+    </references>
+  </prelreq>
+  <mainfunc mfid="W1001">
+    <proc-num><para>55-0593-1-2064</para></proc-num>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>N/A this position for H and M checks</para>
+      </text>
+      <step2>
+        <text>
+          <para>Verify graffiti removal procedure Ami-Task 2550-0057 has been completed before accomplishing this placard check.</para>
+        </text>
+      </step2>
+
+    </step1>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text>
+      <step2>
+        <text>
+          <para>
+            <emphasis>BHD 1200</emphasis>
+          </para>
+          <para>Location: Forward wall liners</para>
+          <para>STK 00-0810-3-9741</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>CAUTION: ALL CARGO COMPARTMENT CEILING &amp; SIDEWALL LINER</emphasis>
+          </para>
+          <para>
+            <emphasis>REPAIRS MUST COMPLY WITH FAR 121.314 CONSULT</emphasis>
+          </para>
+          <para>
+            <emphasis>757 MM 25-50-09 FOR AUTHORIZED REPAIR.</emphasis>
+          </para>
+          <para>Location: Left sidewall across from door opening, stencil, 1/2 inch black letters</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>CARGO LOADING THE CARGO LOAD FOR THIS...</emphasis>
+          </para>
+          <para>Location: Across and aft of cargo door</para>
+          <para>STK 00-0810-3-5954</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para><emphasis>STA. 1400</emphasis> (with vertical line)</para>
+          <para>Location: Across and aft of cargo door</para>
+          <para>STK 00-0810-3-5791</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>DOOR CONTROL</emphasis>
+          </para>
+          <para>Location: Ceiling, STA. 1400</para>
+          <para>STK 00-0811-3-0302</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>APU BITE INSTRUCTIONS</para>
+          <para>Location: Inside E-6 access door, STA. 1440 right</para>
+          <para>STK 00-0810-3-6998</para>
+        </text>
+      </step2>
+
+    </step1>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text><eff>
+        <tails>
+          <airplane-tail>5501</airplane-tail>
+          <airplane-tail>5502</airplane-tail>
+          <airplane-tail>5503</airplane-tail>
+          <airplane-tail>5504</airplane-tail>
+          <airplane-tail>5505</airplane-tail>
+          <airplane-tail>5506</airplane-tail>
+          <airplane-tail>5507</airplane-tail>
+          <airplane-tail>5508</airplane-tail>
+          <airplane-tail>5509</airplane-tail>
+          <airplane-tail>5511</airplane-tail>
+          <airplane-tail>5512</airplane-tail>
+          <airplane-tail>5513</airplane-tail>
+          <airplane-tail>5514</airplane-tail>
+          <airplane-tail>5515</airplane-tail>
+          <airplane-tail>5516</airplane-tail>
+          <airplane-tail>5517</airplane-tail>
+          <airplane-tail>5518</airplane-tail>
+          <airplane-tail>5519</airplane-tail>
+          <airplane-tail>5520</airplane-tail>
+          <airplane-tail>5521</airplane-tail>
+          <airplane-tail>5522</airplane-tail>
+          <airplane-tail>5523</airplane-tail>
+          <airplane-tail>5524</airplane-tail>
+          <airplane-tail>5525</airplane-tail>
+          <airplane-tail>5526</airplane-tail>
+          <airplane-tail>5527</airplane-tail>
+          <airplane-tail>5528</airplane-tail>
+        </tails>
+      </eff>
+      <step2>
+        <text>
+          <para>
+            <emphasis>ACCESS TO AFT E/E COOLING FILTERS</emphasis>
+          </para>
+          <para>Location: Right sidewall STA. 1540</para>
+          <para>STK 00-0810-3-9546</para>
+        </text>
+      </step2>
+
+
+    </step1>
+    <step1>
+      <text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text>
+      <step2>
+        <text>
+          <para><emphasis>FIRE EXT NOZ DO NOT COVER</emphasis> (with arrow)</para>
+          <para>Location: 4 ea. Ceiling</para>
+          <para>STK 00-0810-3-5788</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para><emphasis>SMOKE DETECTION DO NOT COVER</emphasis> (circular w/black ring)</para>
+          <para>Location: 5 ea. Ceiling</para>
+          <para>STK 00-0810-3-2073</para>
+        </text>
+      </step2>
+      <step2>
+        <sign>
+          <block>
+            <sign-skill>Mechanic</sign-skill>
+          </block>
+        </sign><text>
+          <para>
+            <emphasis>ACCESS TO CARGO SMOKE DETECTION SYSTEM</emphasis>
+          </para>
+          <para>Location: Right sidewall forward of cargo door STA. 1360</para>
+          <para>STK 00-0810-3-5790</para>
+        </text><eff>
+          <tails>
+            <airplane-tail>5505</airplane-tail>
+            <airplane-tail>5506</airplane-tail>
+            <airplane-tail>5507</airplane-tail>
+            <airplane-tail>5508</airplane-tail>
+            <airplane-tail>5509</airplane-tail>
+            <airplane-tail>5511</airplane-tail>
+            <airplane-tail>5512</airplane-tail>
+            <airplane-tail>5513</airplane-tail>
+            <airplane-tail>5514</airplane-tail>
+            <airplane-tail>5515</airplane-tail>
+            <airplane-tail>5516</airplane-tail>
+            <airplane-tail>5517</airplane-tail>
+            <airplane-tail>5518</airplane-tail>
+            <airplane-tail>5519</airplane-tail>
+            <airplane-tail>5520</airplane-tail>
+            <airplane-tail>5521</airplane-tail>
+            <airplane-tail>5522</airplane-tail>
+            <airplane-tail>5523</airplane-tail>
+            <airplane-tail>5524</airplane-tail>
+            <airplane-tail>5525</airplane-tail>
+            <airplane-tail>5526</airplane-tail>
+            <airplane-tail>5527</airplane-tail>
+          </tails>
+        </eff>
+
+
+      </step2>
+    </step1>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text>
+      <step2>
+        <text>
+          <para>
+            <emphasis>SMOKE DETECTOR SYSTEM EXHAUST...</emphasis>
+          </para>
+          <para>Location: Right sidewall Forward of door opening, STA. 1376</para>
+          <para>STK BAC27NCH0012</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>CARGO DOOR CONTROL OPEN CLOSE</emphasis>
+          </para>
+          <para>Location: Cargo door control panel</para>
+          <para>STK BAC27NEX0025</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>CARGO COMPT LIGHT ON OFF</emphasis>
+          </para>
+          <para>Location: Cargo door control panel</para>
+          <para>STK 00-0810-3-2012</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>NORMAL LIMIT 3 LIVE ANIMALS</emphasis>
+          </para>
+          <para>Location: Left sidewall liner, across from cargo door, STA. 1400, stencil, 1 inch black letters</para>
+          <para>E.O. 1125-01012, DWG 09B11-35421</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>Cargo compartment divider stripe</emphasis>
+          </para>
+          <para>Location: STA. 1376 left and right from ceiling to floor track, 1 inch black stripe</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>BIN 3</emphasis>
+          </para>
+          <para>
+            <emphasis>CAPACITY 8,550 LBS</emphasis>
+          </para>
+          <para>
+            <emphasis>MAX FLOOR LOADING 150 LBS/SQ FT.</emphasis>
+          </para>
+          <para>
+            <emphasis>MAX RUNNING LOAD 47 LBS/SQ IN</emphasis>
+          </para>
+          <para>Location: On sidewall just forward of divider stripe, left and right sides, stencil, 1 inch black lettering</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>BIN 4</para>
+          <para>CAPACITY 12,120 LBS</para>
+          <para>MAX FLOOR LOADING 150 LBS/SQ FT.</para>
+          <para>MAX RUNNING LOAD 47 LBS/SQ IN</para>
+        </text>
+      </step2>
+
+    </step1>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text>
+      <step2>
+        <text>
+          <para>
+            <emphasis>NO GRAFFITI</emphasis>
+          </para>
+          <para>Location: On left sidewall, forward of STA. 1400 marking</para>
+          <para>STK 00-0810-3-8929</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>AOG PARTS STOWAGE 50 LBS MAX WT.</emphasis>
+          </para>
+          <para>Location: On lid of AOG box, stencil, 1 inch black letters</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>MAINTENANCE ACCESS ONLY THE PARTS IN THIS BOX...</emphasis>
+          </para>
+          <para>Location: AOG Box</para>
+          <para>STK 00-0810-3-7334</para>
+        </text>
+      </step2>
+
+    </step1>
+    <step1>
+      <sign>
+        <block>
+          <sign-skill>Mechanic</sign-skill>
+        </block>
+      </sign><text>
+        <para>Check for the presence and condition of the following placards. Recondition as required.</para>
+      </text>
+      <step2>
+        <text>
+          <para>
+            <emphasis>BHD 1640</emphasis>
+          </para>
+          <para>Location: Aft wall</para>
+          <para>STK 00-0810-3-5955</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>AFT CARGO TEMP CONTROL SWITCH</emphasis>
+          </para>
+          <para>Location: Forward wall right side below lower air grill</para>
+          <para>STK 00-0810-3-9853</para>
+        </text>
+      </step2>
+      <step2>
+        <text>
+          <para>
+            <emphasis>CAUTION: DO NOT OBSTRUCT INLET</emphasis>
+          </para>
+          <para>Location: Forward wall on right side of air grills</para>
+          <para>STK 00-0810-3-9854 Mfg: BAC27NEC0167</para>
+        </text>
+      </step2>
+
+    </step1>
+  </mainfunc>
+</workcard>
