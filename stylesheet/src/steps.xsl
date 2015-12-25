@@ -104,6 +104,7 @@
                             <xsl:choose>
                                 <xsl:when test="h:div[@class='text']">
                                     <xsl:apply-templates select="h:div[@class='text'][1]"/>
+                                    <xsl:apply-templates select="h:div[@class='text'][1]/preceding-sibling::*"/>
                                     <xsl:apply-templates select="h:div[@class='text'][1]/following-sibling::*"/>
                                 </xsl:when>
                                 <xsl:otherwise>

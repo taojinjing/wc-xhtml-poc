@@ -20,8 +20,6 @@
                                        margin-right="1cm"
                                        margin-top="1cm"
                                        margin-bottom="1cm">
-                    <fo:region-before extent="1cm"/>
-                    <fo:region-after extent="1cm"/>
                     <fo:region-body
                             margin-top="1cm"
                             margin-bottom="1cm" />

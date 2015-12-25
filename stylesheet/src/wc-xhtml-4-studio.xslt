@@ -12,6 +12,7 @@
     <xsl:import href="parameters.xsl"/>
     <xsl:import href="defaultLayout.xsl"/>
     <xsl:import href="workcardEff.xsl"/>
+    <xsl:import href="signblock.xsl"/>
     <xsl:import href="workcardHeader.xsl"/>
     <xsl:import href="workcardPrelreq.xsl"/>
     <xsl:import href="steps.xsl"/>
