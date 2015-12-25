@@ -113,7 +113,8 @@ class WorkCard(DocumentPlugin):
         self.__clkWatcher = DblClickWatcher(self)
         self.structEditor_.setDoubleClickWatcher(self.__clkWatcher)
 
-        self.prelreqNode_ = get_node("//prelreq", self.srcDoc_)
+        self.prelreqNode_ = get_node("//div[@class='prelreq']", self.srcDoc_)
+        print (self.prelreqNode_)
         self.updateInscription()
         if context:
             self.supportFigures_ = self.structEditor_.canInsertElement("figure","",GrovePos(context))
