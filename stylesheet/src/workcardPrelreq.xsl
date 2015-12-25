@@ -1,7 +1,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 xmlns:h="http://www.w3.org/1999/xhtml"
+                xmlns:xse="http://www.syntext.com/Extensions/XSLT-1.0"
                 xmlns:sf="http://www.syntext.com/Extensions/Functions"
+                extension-element-prefixes="xse sf"
                 version="1.0">
 
 
@@ -63,10 +65,10 @@
                 <xsl:call-template name="process-elements">
                     <xsl:with-param name="elem" select="'estimations'"/>
                 </xsl:call-template>
-                <xsl:apply-templates select="*[not(self::major-zone or self::maintflow-num or
-                self::source-docs or self::checks or self::forecasts or
-                self::configurations or self::references or self::tools or self::parts or
-                self::circuit-breakers or self::zones-panels or self::drawings or self::estimations)]"/>
+                <!--<xsl:apply-templates select="*[not(self::major-zone or self::maintflow-num or-->
+                <!--self::source-docs or self::checks or self::forecasts or-->
+                <!--self::configurations or self::references or self::tools or self::parts or-->
+                <!--self::circuit-breakers or self::zones-panels or self::drawings or self::estimations)]"/>-->
             </fo:block>
         </fo:block>
     </xsl:template>
