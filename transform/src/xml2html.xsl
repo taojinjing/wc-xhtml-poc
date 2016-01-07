@@ -1,5 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+    <!--basic skeleton-->
     <xsl:template match="workcard">
         <html xmlns="http://www.w3.org/1999/xhtml"
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,7 +12,8 @@
             </body>
         </html>
     </xsl:template>
-
+    <!--element -> div-->
+    <!--attribute -> span-->
     <xsl:template match="*">
         <div>
             <xsl:attribute name="class">
@@ -29,5 +30,4 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-
 </xsl:stylesheet>
