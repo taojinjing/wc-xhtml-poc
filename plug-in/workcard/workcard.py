@@ -114,7 +114,6 @@ class WorkCard(DocumentPlugin):
         self.structEditor_.setDoubleClickWatcher(self.__clkWatcher)
 
         self.prelreqNode_ = get_node("//div[@class='prelreq']", self.srcDoc_)
-        print (self.prelreqNode_)
         self.updateInscription()
         if context:
             self.supportFigures_ = self.structEditor_.canInsertElement("figure","",GrovePos(context))
@@ -403,26 +402,7 @@ class WorkCard(DocumentPlugin):
 #            self.executeCommandEvent("CloseDocument",PropertyNode())
         
     def testDocato(self):        
-        url = self.composeUrl("searchConditions", {})
-        grove = Grove.buildGroveFromFile(url)
-        conds = get_nodes("//conditionlist", grove.document())
-        global gprjname
-        global gusername
-        if len(conds)<1:
-            if self.sessionTimer_:
-                self.sessionTimer_.stop();
-            if self.autosaveTimer_:
-                self.autosaveTimer_.stop();
-            res = QMessageBox.warning( ui_item_widget(self.sernaDoc()),
-            "Warning", "Connection with CMS server '" + str(self.serverIp_) + "' <b>is lost</b>.\nDocument <b>will be closed</b>. Do you want to save your changes?", "Yes", "No")
-            if res == 0:
-                self.loginDialog(gprjname,gusername)                
-            else:
-                QMessageBox.warning( ui_item_widget(self.sernaDoc()),"Warning",
-                   "To avoid changes lost, please save document to local file system by click 'Save As' button...\nIf you get 'Authentification required...' dialog at the next step, please cancel it.")
-#                for i in range(100):  #undo all the changes to prevent "SaveAs dialog" from the system
-#                   self.executeCommandEvent("StructUndo",PropertyNode())
-#                self.executeCommandEvent("CloseDocument",PropertyNode())
+        return True;
 
     def composeDavPath(self, filename):
         return self.serverDomain_ + "/dav/ses=" + self.sessionId_ + "/" + filename
